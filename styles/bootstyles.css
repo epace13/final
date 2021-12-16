@@ -1,0 +1,75 @@
+.navigation{
+    background-color: lightblue;
+}
+
+.tableau{
+    background-color: lightcyan;
+    text-align: center;
+}
+
+button{
+    orientation: landscape;
+    background-color: rgb(184, 174, 174);
+}
+
+.box1 {
+    padding: 5px 5px;
+    background-color: rgb(184, 174, 174);
+}
+
+.box2 {
+    padding: 5px 5px;
+    background-color: rgb(184, 174, 174);
+}
+
+.box3 {
+    z-index: 99;
+    padding: 5px 5px;
+    background-color: rgb(184, 174, 174);
+}
+
+.box4 {
+    padding: 5px 5px;
+    background-color: rgb(184, 174, 174);
+}
+
+.menu{ 
+    display: flex; 
+    border: solid 3px black;
+    color: white;
+    flex-direction: row;
+}
+
+.menu li{
+    text-align: center;
+    padding: 5px 5px;
+    height: 50 px;
+    flex-grow: 3;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: rgb(38, 111, 136);
+    font-size: xx-large;
+}
+
+.menu li a:hover {
+    font-size: 32px;
+    color: lightcoral;
+}
+
+footer{
+    text-align: center;
+    orientation: vertical;
+    padding: 5px 5px;
+}
+
+ul{
+    text-align: center;
+}
